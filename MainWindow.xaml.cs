@@ -200,7 +200,7 @@ namespace Pacurar_Viorel_Lab5
             inventoryViewSource.View.MoveCurrentToPrevious();
         }
 
-        private void btnSaveO_Click(object sender, RoutedEventArgs e)
+        private void btnSaveOrder_Click(object sender, RoutedEventArgs e)
         {
             Order order = null;
             if (action == ActionState.New)

@@ -49,10 +49,10 @@
                     <Button x:Name="btnNew" Content="New" HorizontalAlignment="Left" Height="25" Margin="20,28,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Height="25" Margin="20,81,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Height="25" Margin="20,129,0,0" VerticalAlignment="Top" Width="75"/>
-                    <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Height="25" Margin="20,211,0,0" VerticalAlignment="Top" Width="75"/>
+                    <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Height="25" Margin="20,211,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
                     <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="25" Margin="20,253,0,0" VerticalAlignment="Top" Width="75"/>
-                    <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" Height="25" Margin="201,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
-                    <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" Height="25" Margin="524,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+                    <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" Height="25" Margin="201,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnPrevious_Click"/>
+                    <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" Height="25" Margin="524,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnNext_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Inventory">
@@ -88,10 +88,10 @@
                     <Button x:Name="btnNewInventory" Content="New" HorizontalAlignment="Left" Height="25" Margin="20,28,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
                     <Button x:Name="btnEditInventory" Content="Edit" HorizontalAlignment="Left" Height="25" Margin="20,81,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
                     <Button x:Name="btnDeleteInventory" Content="Delete" HorizontalAlignment="Left" Height="25" Margin="20,129,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
-                    <Button x:Name="btnSaveInventory" Content="Save" HorizontalAlignment="Left" Height="25" Margin="20,211,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnSaveInventory" Content="Save" HorizontalAlignment="Left" Height="25" Margin="20,211,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="btnSaveInventory_Click"/>
                     <Button x:Name="btnCancelInventory" Content="Cancel" HorizontalAlignment="Left" Height="25" Margin="20,253,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
-                    <Button x:Name="btnPreviousInventory" Content="Previous" HorizontalAlignment="Left" Height="25" Margin="201,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
-                    <Button x:Name="btnNextInventory" Content="Next" HorizontalAlignment="Left" Height="25" Margin="524,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+                    <Button x:Name="btnPreviousInventory" Content="Previous" HorizontalAlignment="Left" Height="25" Margin="201,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnPreviousInventory_Click"/>
+                    <Button x:Name="btnNextInventory" Content="Next" HorizontalAlignment="Left" Height="25" Margin="524,138,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnNextInventory_Click"/>
                 </Grid>
 
             </TabItem>
@@ -138,7 +138,7 @@
                     <Button x:Name="btnNewOrder" Content="New" HorizontalAlignment="Left" Height="25" Margin="25,28,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnEditOrder" Content="Edit" HorizontalAlignment="Left" Height="25" Margin="25,81,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnDeleteOrder" Content="Delete" HorizontalAlignment="Left" Height="25" Margin="25,129,0,0" VerticalAlignment="Top" Width="75"/>
-                    <Button x:Name="btnSaveOrder" Content="Save" HorizontalAlignment="Left" Height="25" Margin="25,211,0,0" VerticalAlignment="Top" Width="75"/>
+                    <Button x:Name="btnSaveOrder" Content="Save" HorizontalAlignment="Left" Height="25" Margin="25,211,0,0" VerticalAlignment="Top" Width="75" Click="btnSaveOrder_Click"/>
                     <Button x:Name="btnCancelOrder" Content="Cancel" HorizontalAlignment="Left" Height="25" Margin="25,253,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnPreviousOrder" Content="Previous" HorizontalAlignment="Left" Height="25" Margin="175,291,0,0" VerticalAlignment="Top" Width="75"/>
                     <Button x:Name="btnNextOrder" Content="Next" HorizontalAlignment="Left" Height="25" Margin="594,291,0,0" VerticalAlignment="Top" Width="75"/>
