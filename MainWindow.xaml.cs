@@ -35,10 +35,5 @@ namespace Pacurar_Viorel_Lab5
             // Load data by setting the CollectionViewSource.Source property:
             // inventoryViewSource.Source = [generic data source]
         }
-
-        private void btnNew_Copy3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
